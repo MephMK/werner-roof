@@ -96,7 +96,7 @@ ul { padding-left: 1.2rem; }
 
 .has-dropdown { position: relative; }
 .main-nav > ul > li > .dropdown-menu {
-  position: absolute; top: calc(100% + 0.7rem); left: 0; min-width: 240px; padding: 0.6rem;
+  position: absolute; top: 100%; left: 0; min-width: 240px; padding: 1.3rem 0.6rem 0.6rem;
   display: flex; flex-direction: column; background: rgba(12, 25, 39, 0.98); border: 1px solid rgba(255,255,255,0.08);
   border-radius: 20px; box-shadow: var(--shadow-soft);
   opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(-0.35rem);
