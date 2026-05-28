@@ -26,6 +26,9 @@ function setupDropdowns() {
     const menuLinks = item.querySelectorAll(".dropdown-menu a");
     if (!button) return;
 
+    item.classList.remove("open");
+    button.setAttribute("aria-expanded", "false");
+
     const closeDropdown = () => {
       item.classList.remove("open");
       button.setAttribute("aria-expanded", "false");
