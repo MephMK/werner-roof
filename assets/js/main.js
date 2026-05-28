@@ -23,21 +23,31 @@ function setupMobileNav() {
 function setupDropdowns() {
   document.querySelectorAll(".has-dropdown").forEach((item) => {
     const button = item.querySelector(".dropdown-toggle");
+    const menu = item.querySelector(".dropdown-menu");
     const menuLinks = item.querySelectorAll(".dropdown-menu a");
-    if (!button) return;
+    if (!button || !menu) return;
 
-    item.classList.remove("open");
-    button.setAttribute("aria-expanded", "false");
+    const openDropdown = () => {
+      item.classList.add("open");
+      button.setAttribute("aria-expanded", "true");
+      menu.hidden = false;
+    };
 
     const closeDropdown = () => {
       item.classList.remove("open");
       button.setAttribute("aria-expanded", "false");
+      menu.hidden = true;
     };
+
+    closeDropdown();
 
     button.addEventListener("click", (event) => {
       event.stopPropagation();
-      const isOpen = item.classList.toggle("open");
-      button.setAttribute("aria-expanded", String(isOpen));
+      if (item.classList.contains("open")) {
+        closeDropdown();
+      } else {
+        openDropdown();
+      }
     });
 
     item.addEventListener("mouseleave", () => {
