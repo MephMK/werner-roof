@@ -23,17 +23,43 @@ function setupMobileNav() {
 function setupDropdowns() {
   document.querySelectorAll(".has-dropdown").forEach((item) => {
     const button = item.querySelector(".dropdown-toggle");
+    const menuLinks = item.querySelectorAll(".dropdown-menu a");
     if (!button) return;
 
-    button.addEventListener("click", () => {
+    const closeDropdown = () => {
+      item.classList.remove("open");
+      button.setAttribute("aria-expanded", "false");
+    };
+
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
       const isOpen = item.classList.toggle("open");
       button.setAttribute("aria-expanded", String(isOpen));
     });
 
     item.addEventListener("mouseleave", () => {
       if (window.innerWidth > 980) {
-        item.classList.remove("open");
-        button.setAttribute("aria-expanded", "false");
+        closeDropdown();
+      }
+    });
+
+    item.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
+
+    menuLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        closeDropdown();
+      });
+    });
+
+    document.addEventListener("click", () => {
+      closeDropdown();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeDropdown();
       }
     });
   });
