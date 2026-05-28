@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <defs><linearGradient id="b1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#13263c"/><stop offset="100%" stop-color="#31414b"/></linearGradient><linearGradient id="b2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e0cca8"/><stop offset="100%" stop-color="#9d7b47"/></linearGradient></defs>
+  <rect width="960" height="720" fill="url(#b1)"/>
+  <ellipse cx="480" cy="430" rx="280" ry="110" fill="url(#b2)" opacity=".88"/>
+  <rect x="180" y="190" width="80" height="120" rx="18" fill="#fff" opacity=".1"/>
+  <rect x="700" y="190" width="80" height="120" rx="18" fill="#fff" opacity=".1"/>
+  <rect x="310" y="120" width="340" height="140" rx="28" fill="#fff" opacity=".08"/>
+  <text x="190" y="646" fill="#f8f3eb" font-family="Segoe UI, Arial, sans-serif" font-size="32" letter-spacing="4">BOARDROOM PLACEHOLDER</text>
+</svg>

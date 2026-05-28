@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <defs><linearGradient id="l1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f2237"/><stop offset="100%" stop-color="#2a4f86"/></linearGradient><linearGradient id="l2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e0cfab"/><stop offset="100%" stop-color="#9d7c47"/></linearGradient></defs>
+  <rect width="960" height="720" fill="url(#l1)"/>
+  <rect x="150" y="110" width="660" height="500" rx="36" fill="#fff" opacity=".06"/>
+  <path d="M480 180v250" stroke="url(#l2)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 250h260" stroke="url(#l2)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M360 250c-6 58-56 104-116 104s-110-46-116-104h232z" fill="#f7f1e8" opacity=".88"/>
+  <path d="M832 250c-6 58-56 104-116 104s-110-46-116-104h232z" fill="#f7f1e8" opacity=".88"/>
+  <rect x="350" y="450" width="260" height="70" rx="20" fill="#fff" opacity=".12"/>
+  <text x="145" y="652" fill="#f8f3eb" font-family="Segoe UI, Arial, sans-serif" font-size="32" letter-spacing="4">LEGAL SERVICES</text>
+</svg>

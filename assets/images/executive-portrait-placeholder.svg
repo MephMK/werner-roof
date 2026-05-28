@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#102031"/><stop offset="100%" stop-color="#31414c"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#dbc79e"/><stop offset="100%" stop-color="#8e7445"/></linearGradient></defs>
+  <rect width="960" height="720" fill="url(#g1)"/>
+  <circle cx="690" cy="140" r="120" fill="#fff" opacity=".05"/>
+  <rect x="110" y="110" width="740" height="500" rx="42" fill="#f6f1e8" opacity=".08"/>
+  <path d="M540 255c0 63-51 114-114 114s-114-51-114-114 51-114 114-114 114 51 114 114z" fill="url(#g2)" opacity=".85"/>
+  <path d="M250 608c32-120 110-180 176-180 68 0 145 62 176 180H250z" fill="#f7f3ec" opacity=".88"/>
+  <path d="M610 186c34 44 68 98 102 160" stroke="#dbc79e" stroke-width="8" stroke-linecap="round" opacity=".5"/>
+  <text x="120" y="640" fill="#f8f2e8" font-family="Segoe UI, Arial, sans-serif" font-size="34" letter-spacing="6">EXECUTIVE PORTRAIT PLACEHOLDER</text>
+</svg>

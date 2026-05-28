@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Logo-Platzhalter Dr. Jörg Werner</title>
+  <desc id="desc">Monogramm in Navy und Gold für die persönliche Dachmarke.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#13263c"/>
+      <stop offset="100%" stop-color="#30414b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbc79e"/>
+      <stop offset="100%" stop-color="#9f8052"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="48" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="82" fill="none" stroke="url(#gold)" stroke-width="4" opacity=".9"/>
+  <path d="M82 160V82h24c20 0 34 11 34 29 0 19-14 31-34 31H96v18H82zm14-30h10c11 0 20-5 20-18 0-12-9-17-20-17H96v35z" fill="url(#gold)"/>
+  <path d="M152 82h14v51c0 10 4 15 14 15 4 0 8-1 12-2v12c-4 2-10 3-16 3-16 0-24-9-24-25V82z" fill="#f5f1e8"/>
+</svg>

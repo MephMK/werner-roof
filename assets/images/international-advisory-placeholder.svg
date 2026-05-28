@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720">
+  <defs><linearGradient id="i1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#101f31"/><stop offset="100%" stop-color="#31414b"/></linearGradient><linearGradient id="i2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#dcc89f"/><stop offset="100%" stop-color="#8d7243"/></linearGradient></defs>
+  <rect width="960" height="720" fill="url(#i1)"/>
+  <circle cx="320" cy="350" r="170" fill="none" stroke="#f3ead9" stroke-width="6" opacity=".3"/>
+  <circle cx="480" cy="350" r="170" fill="none" stroke="#f3ead9" stroke-width="6" opacity=".2"/>
+  <circle cx="640" cy="350" r="170" fill="none" stroke="#f3ead9" stroke-width="6" opacity=".3"/>
+  <path d="M250 350h460" stroke="url(#i2)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M480 120v460" stroke="url(#i2)" stroke-width="10" stroke-linecap="round"/>
+  <text x="126" y="646" fill="#f8f3eb" font-family="Segoe UI, Arial, sans-serif" font-size="30" letter-spacing="4">INTERNATIONAL ADVISORY</text>
+</svg>
